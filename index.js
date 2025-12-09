@@ -27,12 +27,11 @@ app.use(express.json());
 // Routes
 app.use("/api/contact", ContactRouter);
 
-// Root route (optional)
+
 app.get("/", (req, res) => {
   res.send("Hello Talha");
 });
 
-// Connect to DB and start server
 ConnectDb()
   .then(() => {
     app.listen(port, () => {
