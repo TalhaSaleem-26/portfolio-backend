@@ -55,7 +55,7 @@ const html = `
 </div>
 `;
 await transporter.sendMail({
-    from: `"Portfolio Contact Form" <${process.env.MIDDLE_EMAIL}>`, // sender (your email)
+    from: `"Portfolio Contact Form" <${process.env.EMAIL}>`, // sender (your email)
     to: process.env.OWNER_EMAIL,                             // recipient (your personal email)
     subject: `New Contact Message from ${name}`,             // name of the user in subject
     html:html
