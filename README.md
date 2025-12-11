@@ -25,4 +25,4 @@ It handles form submissions securely and sends email notifications using **Resen
 
 ---
 
-## 📁 Folder Structure
+
